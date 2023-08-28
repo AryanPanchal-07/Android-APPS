@@ -8,7 +8,7 @@
 
     <Button
         android:id="@+id/button27"
-        style="@style/Widget.Material3.Button"
+        style="@style/SharpCornerButton"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_margin="1dp"
@@ -24,11 +24,11 @@
 
     <Button
         android:id="@+id/button25"
-        style="@style/Widget.Material3.Button"
+        style="@style/SharpCornerButton"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_margin="1dp"
-        android:backgroundTint="#FF9800"
+        android:backgroundTint="#F44336"
         android:onClick="buttonClick"
         android:text="="
         android:textSize="26sp"
@@ -40,7 +40,7 @@
 
     <Button
         android:id="@+id/button26"
-        style="@style/Widget.Material3.Button"
+        style="@style/SharpCornerButton"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_margin="1dp"
@@ -56,7 +56,7 @@
 
     <Button
         android:id="@+id/button28"
-        style="@style/Widget.Material3.Button"
+        style="@style/SharpCornerButton"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_margin="1dp"
@@ -72,7 +72,7 @@
 
     <Button
         android:id="@+id/button21"
-        style="@style/Widget.Material3.Button"
+        style="@style/SharpCornerButton"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_margin="1dp"
@@ -88,7 +88,7 @@
 
     <Button
         android:id="@+id/button23"
-        style="@style/Widget.Material3.Button"
+        style="@style/SharpCornerButton"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_margin="1dp"
@@ -104,7 +104,7 @@
 
     <Button
         android:id="@+id/button22"
-        style="@style/Widget.Material3.Button"
+        style="@style/SharpCornerButton"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_margin="1dp"
@@ -120,7 +120,7 @@
 
     <Button
         android:id="@+id/button24"
-        style="@style/Widget.Material3.Button"
+        style="@style/SharpCornerButton"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_margin="1dp"
@@ -136,7 +136,7 @@
 
     <Button
         android:id="@+id/button18"
-        style="@style/Widget.Material3.Button"
+        style="@style/SharpCornerButton"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_margin="1dp"
@@ -152,7 +152,7 @@
 
     <Button
         android:id="@+id/button17"
-        style="@style/Widget.Material3.Button"
+        style="@style/SharpCornerButton"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_margin="1dp"
@@ -168,7 +168,7 @@
 
     <Button
         android:id="@+id/button20"
-        style="@style/Widget.Material3.Button"
+        style="@style/SharpCornerButton"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_margin="1dp"
@@ -184,7 +184,7 @@
 
     <Button
         android:id="@+id/button19"
-        style="@style/Widget.Material3.Button"
+        style="@style/SharpCornerButton"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_margin="1dp"
@@ -200,7 +200,7 @@
 
     <Button
         android:id="@+id/button14"
-        style="@style/Widget.Material3.Button"
+        style="@style/SharpCornerButton"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_margin="1dp"
@@ -216,7 +216,7 @@
 
     <Button
         android:id="@+id/button13"
-        style="@style/Widget.Material3.Button"
+        style="@style/SharpCornerButton"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_margin="1dp"
@@ -232,7 +232,7 @@
 
     <Button
         android:id="@+id/button16"
-        style="@style/Widget.Material3.Button"
+        style="@style/SharpCornerButton"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_margin="1dp"
@@ -248,7 +248,7 @@
 
     <Button
         android:id="@+id/button15"
-        style="@style/Widget.Material3.Button"
+        style="@style/SharpCornerButton"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_margin="1dp"
@@ -277,11 +277,11 @@
 
     <Button
         android:id="@+id/button"
-        style="@style/Widget.Material3.Button"
+        style="@style/SharpCornerButton"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_margin="1dp"
-        android:backgroundTint="#FF9800"
+        android:backgroundTint="#F44336"
         android:onClick="buttonClick"
         android:text="C"
         android:textSize="26sp"
@@ -293,7 +293,7 @@
 
     <Button
         android:id="@+id/button2"
-        style="@style/Widget.Material3.Button"
+        style="@style/SharpCornerButton"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_margin="1dp"
@@ -309,7 +309,7 @@
 
     <Button
         android:id="@+id/button4"
-        style="@style/Widget.Material3.Button"
+        style="@style/SharpCornerButton"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_margin="1dp"
@@ -325,7 +325,7 @@
 
     <Button
         android:id="@+id/button3"
-        style="@style/Widget.Material3.Button"
+        style="@style/SharpCornerButton"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_margin="1dp"

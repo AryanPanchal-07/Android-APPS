@@ -12,6 +12,8 @@ class MainActivity : AppCompatActivity() {
 
     var startNumber: Boolean = true;
     val acceptingDigit: Boolean = true;
+
+    var calculatorModel = CalculatorModel();
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
@@ -55,17 +57,19 @@ class MainActivity : AppCompatActivity() {
                         currentNumber += buttonText
                     }
                 }
-
             }
+            "C" -> {
+                currentNumber = ""
+                startNumber=true
+            }
+            "+" -> {
+                calculatorModel.setFirstNumber(currentNumber.toDouble())
+                calculatorModel.setOperator(buttonText)
+            }
+
         }
         textView.text = currentNumber
 
-        when (buttonText) {
-            "C" -> {
-                currentNumber = ""
-                textView.text = currentNumber
-            }
-        }
 
     }
 }
