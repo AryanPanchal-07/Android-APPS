@@ -63,7 +63,7 @@
                     currentNumber = "0"
                     startNumber=true
                 }
-                "+", "-", "X", "/" -> {
+                "+", "-", "X", "/"  -> {
                     if(calculatorModel.firstNumberSet && calculatorModel.operatorSet)
                     {
                         calculatorModel.setSecondNumber(currentNumber.toDouble())
@@ -73,9 +73,21 @@
                     calculatorModel.setOperator(buttonText)
                     startNumber = true
                 }
+                "^" -> {
+                    if(calculatorModel.firstNumberSet && calculatorModel.operatorSet)
+                    {
+                        calculatorModel.setSecondNumber(currentNumber.toDouble())
+                        currentNumber = calculatorModel.getResult().toString()
+                    }
+                    calculatorModel.setFirstNumber(currentNumber.toDouble())
+                    calculatorModel.setOperator(buttonText)
+                    currentNumber = calculatorModel.getResult().toString()
+                    startNumber = true
+                }
                 "=" -> {
                     calculatorModel.setSecondNumber(currentNumber.toDouble())
                     currentNumber = calculatorModel.getResult().toString()
+                    calculatorModel.clear()
                     startNumber = true
                 }
 

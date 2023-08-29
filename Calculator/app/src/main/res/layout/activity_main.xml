@@ -331,7 +331,7 @@
         android:layout_margin="1dp"
         android:backgroundTint="#FF9800"
         android:onClick="buttonClick"
-        android:text="#"
+        android:text="^"
         android:textSize="26sp"
         app:layout_constraintBottom_toTopOf="@+id/button13"
         app:layout_constraintEnd_toStartOf="@+id/button2"
