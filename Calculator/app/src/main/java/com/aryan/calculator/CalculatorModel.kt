@@ -60,7 +60,6 @@ class CalculatorModel {
                 "^" -> {
                     result = firstNumber * firstNumber
                 }
-
             }
         }
         else if(firstNumberSet)

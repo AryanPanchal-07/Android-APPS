@@ -84,11 +84,28 @@
                     currentNumber = calculatorModel.getResult().toString()
                     startNumber = true
                 }
+
+                "+/-" -> {
+                    if(currentNumber.toDouble() < 0) {
+                        currentNumber =
+                            (currentNumber.toDouble() - currentNumber.toDouble() - currentNumber.toDouble()).toString()
+                    }
+                    else
+                    {
+                        currentNumber = "-$currentNumber"
+                    }
+                }
                 "=" -> {
+                    if(calculatorModel.firstNumberSet && calculatorModel.operatorSet){
                     calculatorModel.setSecondNumber(currentNumber.toDouble())
                     currentNumber = calculatorModel.getResult().toString()
                     calculatorModel.clear()
                     startNumber = true
+                        }
+                    else
+                    {
+
+                    }
                 }
 
             }
